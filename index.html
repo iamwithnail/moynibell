@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Campbell Holiday Tours</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -26,89 +26,110 @@
         <!--<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>-->
       </div>
     </div>
-    <h1></h1>
 
-      <div class="row">
-          <div class="col-md-2"></div>
-        <div class="col-md-1">From</div>
-          <div class="col-md-1">To</div>
-        <div class="col-md-2">Accomodation</div>
-        <div class="col-md-2">Spare Rooms?</div>
-          <div class="col-md-1">Has Airport?</div>
-      </div>
-   <hr>
-    <div class="row">
-         <div class="col-md-2"></div>
-        <div class="col-md-1">14th</div>
-          <div class="col-md-1">16th</div>
-        <div class="col-md-2"><a href="http://www.booking.com/hotel/hu/budapest-central-apartments.html">Budapest (HUN) </a></div>
-        <div class="col-md-2">Spare Room + Couch</div>
-        <div class="col-md-1">Yes</div>
-      </div>
-   <hr>
-    <div class="row">
-         <div class="col-md-2"></div>
-        <div class="col-md-1">16th</div>
-          <div class="col-md-1">18th</div>
-        <div class="col-md-2"><a href="https://www.airbnb.co.uk/rooms/11732881">Novi Sad (SRB) </a></div>
-        <div class="col-md-2">Nope</div>
-        <div class="col-md-1">Nope</div>
-      </div>
-   <hr>
-    <div class="row">
-         <div class="col-md-2"></div>
-        <div class="col-md-1">18th</div>
-          <div class="col-md-1">21st</div>
-        <div class="col-md-2"><a href="https://www.airbnb.co.uk/rooms/7787585">Belgrade (SRB) </a></div>
-        <div class="col-md-2">Spare Room + 2 Couches</div>
-        <div class="col-md-1">Yes</div>
-      </div>
-   <hr>
-    <div class="row">
-         <div class="col-md-2"></div>
-    <div class="col-md-1">21st</div>
-          <div class="col-md-1">22nd</div>
-        <div class="col-md-2"><a href="http://www.booking.com/hotel/rs/main-street-apartments.html">Nis (SRB) </a></div>
-        <div class="col-md-2">Nope</div>
-        <div class="col-md-1">Nope</div>
-      </div>
-   <hr>
-    <div class="row">
-         <div class="col-md-2"></div>
-    <div class="col-md-1">22nd</div>
-          <div class="col-md-1">25th</div>
-        <div class="col-md-2"><a href="https://www.airbnb.co.uk/rooms/6483830">Skopje (MKD) </a></div>
-        <div class="col-md-2">Sofabed</div>
-        <div class="col-md-1">Yes</div>
-      </div>
-   <hr>
-    <div class="row">
-         <div class="col-md-2"></div>
-    <div class="col-md-1">25th</div>
-          <div class="col-md-1">27th</div>
-        <div class="col-md-2"><a href="https://www.airbnb.co.uk/rooms/10139270">Pristine (KOS) </a></div>
-        <div class="col-md-2">Couch</div>
-        <div class="col-md-1">Yes</div>
-      </div>
-<hr>
-    <div class="row">
-         <div class="col-md-2"></div>
-    <div class="col-md-1">27th</div>
-          <div class="col-md-1">29th</div>
-        <div class="col-md-2"><a href="http://www.booking.com/hotel/xk/camp-karagaq.html">Peje (KOS) </a></div>
-        <div class="col-md-2">Nope</div>
-        <div class="col-md-1">Nope</div>
-      </div>
-<hr>
-    <div class="row">
-         <div class="col-md-2"></div>
-    <div class="col-md-1">29th</div>
-          <div class="col-md-1">2nd</div>
-        <div class="col-md-2"><a href="http://www.booking.com/hotel/me/apartments-svorcan.html">Budva (MON) </a></div>
-        <div class="col-md-2">Couch</div>
-        <div class="col-md-3">Yes - Tivat/Dubrovnik</div>
-      </div>
 
+   <div class="table-responsive-vertical shadow-z-1">
+  <!-- Table starts here -->
+  <table id="table" class="table table-hover table-mc-light-blue">
+      <thead>
+        <tr>
+          <th>Staying</th>
+          <th>Arrive</th>
+          <th>Leave</th>
+
+          <th>Space?</th>
+          <th>Airport?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td data-title="Staying">
+           <a href="http://www.booking.com/hotel/hu/budapest-central-apartments.html">Budapest (HUN) </a>
+          </td>
+          <td data-title="Arrive">14th</td>
+          <td data-title="Leave">16th</td>
+
+          <td data-title="Space">Yes, but taken!</td>
+            <td data-title="Airport">Yes (BUD)</td>
+        </tr>
+
+        <tr>
+            <td data-title="Staying">
+           <a href="https://www.airbnb.co.uk/rooms/11732881">Novi Sad (SRB) </a>
+          </td>
+          <td data-title="Arrive">16th</td>
+          <td data-title="Leave">18th</td>
+
+          <td data-title="Space">Nope</td>
+            <td data-title="Airport">Nope</td>
+        </tr>
+
+      <tr>
+            <td data-title="Staying">
+           <a href="https://www.airbnb.co.uk/rooms/7787585">Belgrade (SRB) </a>
+          </td>
+          <td data-title="Arrive">18th</td>
+          <td data-title="Leave">21st</td>
+
+          <td data-title="Space">Spare Room + 2 Couches</td>
+            <td data-title="Airport">Yes (BEG)</td>
+        </tr>
+
+      <tr>
+            <td data-title="Staying">
+           <a href="http://www.booking.com/hotel/rs/main-street-apartments.html">Nis (SRB) </a>
+          </td>
+          <td data-title="Arrive">21st</td>
+          <td data-title="Leave">22nd</td>
+
+          <td data-title="Space">Nope</td>
+            <td data-title="Airport">Nope</td>
+        </tr>
+
+      <tr>
+            <td data-title="Staying">
+           <a href="https://www.airbnb.co.uk/rooms/6483830">Skopje (MKD) </a>
+          </td>
+          <td data-title="Arrive">22nd</td>
+          <td data-title="Leave">25th</td>
+
+          <td data-title="Space">Sofabed</td>
+            <td data-title="Airport">Yes (SKP)</td>
+        </tr>
+
+      <tr>
+            <td data-title="Staying">
+           <a href="https://www.airbnb.co.uk/rooms/10139270">Pristine (KOS) </a>
+          </td>
+          <td data-title="Arrive">25th</td>
+          <td data-title="Leave">27th</td>
+
+          <td data-title="Space">Couch</td>
+            <td data-title="Airport">Yes (PRN)</td>
+        </tr>
+
+      <tr>
+            <td data-title="Staying">
+           <a href="http://www.booking.com/hotel/xk/camp-karagaq.html">Peje (KOS) </a>
+            </td>
+          <td data-title="Arrive">27th</td>
+          <td data-title="Leave">29th</td>
+
+          <td data-title="Space">None</td>
+            <td data-title="Airport">Yes (PRN)</td>
+        </tr>
+      <tr>
+            <td data-title="Staying">
+           <a href="http://www.booking.com/hotel/me/apartments-svorcan.html">Budva (MON) </a>     </td>
+          <td data-title="Arrive">29th</td>
+          <td data-title="Leave">2nd</td>
+
+          <td data-title="Space">Couch</td>
+            <td data-title="Airport">Yes (TIV/DBK)</td>
+        </tr>
+      </tbody>
+    </table>
+       
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
